@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "https://student-management-a868b.web.app/")
+@CrossOrigin(origins = "https://storied-chimera-ff996e.netlify.app/")
 @RestController
 @RequestMapping("/students")
 public class StudentController {
