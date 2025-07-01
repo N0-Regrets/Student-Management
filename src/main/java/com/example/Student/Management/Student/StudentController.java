@@ -8,8 +8,10 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "https://storied-chimera-ff996e.netlify.app/")
-@RestController
+@CrossOrigin(origins = {
+        "https://storied-chimera-ff996e.netlify.app/",
+        "http://localhost:4200"
+})@RestController
 @RequestMapping("/students")
 public class StudentController {
 
