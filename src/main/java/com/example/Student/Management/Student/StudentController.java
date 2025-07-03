@@ -11,6 +11,7 @@ import java.util.Optional;
 @CrossOrigin(origins = {
         "https://storied-chimera-ff996e.netlify.app/",
         "https://student-management-a868b.web.app/",
+        "https://student-management-a868b.web.app/",
         "http://localhost:4200"
 })
 @RestController
